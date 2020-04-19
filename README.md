@@ -3,11 +3,11 @@
 ## Zadanie 1 - Rozgrzewka 
 **Cel:** Zaznajomienie sie z edycja/poruszaniem po pliku ELF za pomoca narzedzia hexedit, oraz readelf.
 
-W folderze `/zad1` znajduje sie plik wykonywalny `zad1.out`. Plik ma bledy w naglowku ELF(pierwsze 16 bajtow).
+W folderze `/zad1` znajduje sie plik wykonywalny `zad1`. Plik ma bledy w naglowku ELF(pierwsze 16 bajtow).
 
 **a)** Za pomoca narzedzia hexedit, nalezy "naprawic" naglowek, tak by program dalo sie uruchomic. Inormacje o naglowku wyswietlamy `readelf -h`
 
-**b)** Znalezc adres sekcji .rodata za pomoca `readelf -S`. Odnalezc go w pliku `zad1.out` i podmienic output na swoje imie i nazwisko. 
+**b)** Znalezc adres sekcji .rodata za pomoca `readelf -S`. Odnalezc go w pliku `zad1` i podmienic output na swoje imie i nazwisko. 
 
 ## Zadanie 2
 **Cel:** Praktyczne uzycie narzedzi do analizy/edycji plikow ELF.
@@ -28,4 +28,23 @@ Zadanie zaczerpniete zostalo z ksiazki Practcal Binary Analysis, polega na odblo
 
 https://youtu.be/9prNMHos-yQ
 
-## Prezentacja PDF
+## Prezentacja PDF + przyklady
+
+Prezentacja:
+
+https://github.com/Baczyn/ELF---Project/blob/master/Prezentacja_ELF.pdf
+
+Przyklady:
+
+https://github.com/Baczyn/ELF---Project/tree/master/Przyklady
+
+## Środowisko pracy
+
+Labolatoria realizowane sa za pomoca Docker'a. Skrypt `run_baczynski_mikolaj.sh run` uruchamia srodowisko. Są na nim narzedzia: `hexedit`, `gdb`, `binutils`, `ltrace`.
+
+## Bibliografia
+
+ - https://practicalbinaryanalysis.com/
+ - http://index-of.es/Varios-2/Learning%20Linux%20Binary%20Analysis.pdf
+ - http://man7.org/linux/man-pages/man5/elf.5.html
+ - https://pl.wikipedia.org/wiki/Executable_and_Linkable_Format
