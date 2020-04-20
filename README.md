@@ -1,4 +1,16 @@
-# Mikolaj Baczynski  ELF
+# Mikolaj Baczynski - ELF
+
+## Opis projektu 
+
+Projekt dotyczy tematu **ELF - Executable and Linkable Format**. Czesc teoretyczna zostala omowiona na seminarium w formie [video-prezentacji](https://youtu.be/9prNMHos-yQ). Znajdziecie w niej wszystkie potrzebne informacje, by wykonac ponizsze zadania. W seminarium przedstawilem budowe pliku o formacie ELF zwroccie uwage :
+* `12:00` - jak wyglada naglowek 
+* `15:34` - jak poruszac sie po pliku binarnym, jak znalesc segment/sekcje
+* `25:00` - jak podmienic output/zainicjowane zmienne
+
+Do wykonania zadan moze sie przydac narzedzie `ltrace ./plik` ktore analizuje interakcje programu z uzywanymi przez niego bibliotekami dzielonymi (shared libraries).
+
+By uruchomic srodowisko w ktorym sa zadania i potrzebne narzedzia musicie posiadac program `Docker`. Skrypt by uruchomic srodowisko znajduje sie w repo: `./run_baczynski_mikolaj.sh run`.
+
 
 ## Zadanie 1 - Rozgrzewka 
 **Cel:** Zaznajomienie sie z edycja/poruszaniem po pliku ELF za pomoca narzedzia hexedit, oraz readelf.
