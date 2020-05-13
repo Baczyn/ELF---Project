@@ -34,7 +34,6 @@ Zadanie zaczerpniete zostalo z ksiazki Practcal Binary Analysis, polega na odblo
 
 **lvl4:** Ten level jest bardzo prosty, klucz dostajemy prawie odrazu.
 
-**lvl5:** 
 
 ## Link do Seminarium 
 
